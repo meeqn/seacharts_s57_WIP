@@ -14,6 +14,8 @@ Python-based API for Electronic Navigational Charts (ENC)
 - Read and process spatial depth data from
   [FileGDB](https://gdal.org/drivers/vector/filegdb.html) files into
   shapefiles.
+- Read and process spatial depth data from [S-57](https://gdal.org/en/latest/drivers/vector/s57.html) files into shapefiles.
+- Visualize S-57 [layers](https://www.teledynecaris.com/s-57/frames/S57catalog.htm).
 - Access and manipulate standard geometric shapes such as points and polygon
   collections.
 - Visualize colorful seacharts features and vessels.
