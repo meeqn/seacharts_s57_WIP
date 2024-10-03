@@ -110,7 +110,7 @@ such as the Norwegian coastal data set used for demonstration purposes, found
 [here](
 https://kartkatalog.geonorge.no/metadata/2751aacf-5472-4850-a208-3532a51c529a).
 
-### Downloading regional datasets
+#### Downloading regional datasets
 
 To visualize and access coastal data of Norway, follow the above link to download
 the `Depth data` (`Sjøkart - Dybdedata`) dataset from the [Norwegian Mapping Authority](
