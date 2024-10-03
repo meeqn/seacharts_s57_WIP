@@ -175,9 +175,11 @@ Note how custom settings may be set in a user-defined .yaml-file, if its path is
 provided to the ENC during initialization. One may also import and create an
 instance of the `seacharts.Config` dataclass, and provide it directly to the ENC.
 
+### FGDB demonstration
 ![](images/example2.svg "Example visualization of vessels and a
 colorbar with depth values in light mode.")
 
+### S-57 demonstration
 ![](images/example3.png "Example visualization of S-57 map with TSS layer and a
 colorbar with depth values in light mode.")
 
