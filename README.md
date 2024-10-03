@@ -178,6 +178,9 @@ instance of the `seacharts.Config` dataclass, and provide it directly to the ENC
 ![](images/example2.svg "Example visualization of vessels and a
 colorbar with depth values in light mode.")
 
+![](images/example3.svg "Example visualization of S-57 map with TSS layer and a
+colorbar with depth values in light mode.")
+
 ### Environment visualization
 The `ENC.start_display` method is used to show a Matplotlib figure plot of the
 loaded sea charts features. Zoom and pan the environment view using the mouse
