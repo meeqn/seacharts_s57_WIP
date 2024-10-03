@@ -105,13 +105,13 @@ or locally inside the SeaCharts root folder as an editable package with `pip ins
 
 ## Usage
 
-This module supports reading and processing `FGDB` files for sea depth data,
-such as the Norwegian coastal data set used for demonstration purposes, found
+This module supports reading and processing `FGDB` and 'S-57' files for sea depth data.
+
+### Downloading regional datasets - FGDB
+
+The Norwegian coastal data set used for demonstration purposes, found
 [here](
 https://kartkatalog.geonorge.no/metadata/2751aacf-5472-4850-a208-3532a51c529a).
-
-#### Downloading regional datasets
-
 To visualize and access coastal data of Norway, follow the above link to download
 the `Depth data` (`Sjøkart - Dybdedata`) dataset from the [Norwegian Mapping Authority](
 https://kartkatalog.geonorge.no/?organization=Norwegian%20Mapping%20Authority) by adding
@@ -124,7 +124,7 @@ format. Finally, select your appropriate user group and purpose, and click
 
 ### Configuration and startup
 
-Unpack the downloaded file(s) and place the extracted `.gdb` in a suitable location,
+Unpack the downloaded file(s) and place the extracted `.gdb` or 'S-57' folder in a suitable location,
 in which the SeaCharts setup may be configured to search. The current
 working directory as well as the relative `data/` and `data/db/` folders are
 included by default.
@@ -143,7 +143,7 @@ if __name__ == '__main__':
     enc.display.show()
 ```
 
-The `config.yaml` file specifies which file paths to open and which area to load.
+The `config.yaml` file specifies which file paths to open and which area to load. In the configuration file the desired map type can be specified by listring data to display - depths for 'FDGB', and [layers](https://www.teledynecaris.com/s-57/frames/S57catalog.htm) for 'S-57'.
 The corresponding `config_schema.yaml` specifies how the required setup parameters
 must be provided, using `cerberus`.
 
