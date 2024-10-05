@@ -11,15 +11,14 @@ enc:
 
   weather:
     PyThor_address: "http://127.0.0.1:5000"
-    variables: [
-#                 "wave_direction",
-#                 "wave_height",
-#                 "wave_period",
+    variables: [ "wave_direction",
+                 "wave_height",
+                 "wave_period",
                  "wind_direction",
                  "wind_speed",
-#                 "sea_current_speed",
-#                 "sea_current_direction",
-#                 "tide_height"
+                 "sea_current_speed",
+                 "sea_current_direction",
+                 "tide_height"
     ]
 
 
@@ -33,10 +32,10 @@ enc:
   #  resources: [ "data/db/More_og_Romsdal_utm33.gdb" ]
 
   time:
-    time_start: "28-09-2024 04:00"
-    time_end: "30-09-2024 04:00"
+    time_start: "24-09-2024 05:00"
+    time_end: "24-09-2024 09:00"
     period: "hour"
-    period_multiplier: 4
+    period_multiplier: 1
 
 
 display:
@@ -47,6 +46,3 @@ display:
   resolution: 640
   anchor: "center"
   dpi: 96
-
-
-
